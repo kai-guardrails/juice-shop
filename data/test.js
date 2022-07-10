@@ -22,7 +22,7 @@ export const config = async (req: Request, res: Response) => {
   try {
     parsedConfiguration = validateInstallationConfig(configuration);
   } catch (e) {
-    if (e.name === "ValidationError ValidationError") {
+    if (e.name === "ValidationError hihi") {
       throw boom.badRequest("Some fields didn't pass validation", {
         details: e.details.map((detail: { message: string, path: string }) => ({
           message: detail.message,
