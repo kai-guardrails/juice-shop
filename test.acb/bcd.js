@@ -1,2 +1,0 @@
-secret="qweqwe"
-password="qweqwe"
