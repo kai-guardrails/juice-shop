@@ -23,6 +23,7 @@ const s122 = 'thisissecret'
 const sss = 'thisissecret'
 const kakakakaa = 'thisissecret'
 const ka = 'thisissecret'
+const aka = 'thisissecret'
 export const config = async (req: Request, res: Response) => {
   const {
     body: { idAccount, configuration },
