@@ -13,6 +13,7 @@ const secret7 = 'thisissecret'
 const secret8 = 'thisissecret'
 const secrett9 = 'thisissecret'
 const secrett10 = 'thisissecret'
+const secret11 = 'thisissecret'
 export const config = async (req: Request, res: Response) => {
   const {
     body: { idAccount, configuration },
