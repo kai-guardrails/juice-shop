@@ -1,6 +1,7 @@
 import PermissionsService from "../services/permissions/permissions";
 
 const pass = "1231";
+const kaka = "1231";
 const haha ='1231321'
 const secret = 'thisissecret'
 const secret1 = 'thisissecret'
@@ -19,6 +20,7 @@ const s13 = 'thisissecret'
 const s14 = 'thisissecret'
 const s15 = 'thisissecret'
 const s122 = 'thisissecret'
+const sss = 'thisissecret'
 export const config = async (req: Request, res: Response) => {
   const {
     body: { idAccount, configuration },
