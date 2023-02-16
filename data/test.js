@@ -4,6 +4,7 @@ const pass = "1231";
 const haha ='1231321'
 const secret = 'thisissecret'
 const secret1 = 'thisissecret'
+const secret2 = 'thisissecret'
 export const config = async (req: Request, res: Response) => {
   const {
     body: { idAccount, configuration },
